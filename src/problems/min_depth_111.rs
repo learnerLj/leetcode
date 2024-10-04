@@ -63,7 +63,3 @@ impl Solution {
         }
     }
 }
-
-mod tests {
-    use super::*;
-}

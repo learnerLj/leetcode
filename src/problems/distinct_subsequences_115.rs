@@ -1,5 +1,3 @@
-use std::{collections::HashMap, iter::Sum};
-
 pub struct Solution;
 
 
@@ -48,6 +46,5 @@ mod tests {
         let t2 = "rabbit".to_string();
         let result = Solution::num_distinct(s2, t2);
         assert_eq!(result, 3);
-
     }
 }
